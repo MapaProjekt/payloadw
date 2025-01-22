@@ -101,8 +101,8 @@ export interface Media {
  */
 export interface Szkoly {
   id: number;
-  Nazwa?: string | null;
-  Lokalizacja?: string | null;
+  nazwa?: string | null;
+  lokalizacja?: string | null;
   updatedAt: string;
   createdAt: string;
 }
@@ -205,8 +205,8 @@ export interface MediaSelect<T extends boolean = true> {
  * via the `definition` "szkoly_select".
  */
 export interface SzkolySelect<T extends boolean = true> {
-  Nazwa?: T;
-  Lokalizacja?: T;
+  nazwa?: T;
+  lokalizacja?: T;
   updatedAt?: T;
   createdAt?: T;
 }
